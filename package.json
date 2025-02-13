@@ -4,7 +4,8 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run headless"
   },
   "babel": {
     "presets": [

@@ -26,8 +26,17 @@ Ruby on rails + vue project
   bin/shakapacker-dev-server 
 ```
 
-### E2E
+### Tests
 
 ```
-  npm run cy:open
+  bundle exec rspec
+```
+
+
+### E2E
+
+Back-end and front-end servers should be running
+
+```
+  npm run cy:headless
 ```
