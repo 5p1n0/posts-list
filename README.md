@@ -35,7 +35,7 @@ Ruby on rails + vue project
 
 ### E2E
 
-Back-end and front-end servers should be running
+Back-end and front-end servers should be running before launching cypress:
 
 ```
   npm run cy:headless
