@@ -3,6 +3,9 @@
   "name": "app",
   "private": true,
   "version": "0.1.0",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
   "babel": {
     "presets": [
       "./node_modules/shakapacker/package/babel/preset.js"
@@ -29,6 +32,7 @@
     "webpack-merge": "^5.10.0"
   },
   "devDependencies": {
+    "cypress": "^14.0.3",
     "vue-loader": "^17.4.2",
     "vue-template-compiler": "^0.1.0",
     "webpack-dev-server": "^4.15.2"
