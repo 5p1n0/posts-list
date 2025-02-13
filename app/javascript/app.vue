@@ -48,7 +48,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .container {
     max-width: 600px;
     margin: 40px auto;
@@ -114,4 +114,4 @@ button:hover {
 .posts {
     margin-top: 20px;
 }
-</style>
+</style> -->

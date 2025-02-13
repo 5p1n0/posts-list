@@ -1,7 +1,6 @@
 <template>
     <div class="post">
         <h2>{{ post.title }}</h2>
-        <p class="content">{{ post.content }}</p>
 
         <div class="tags" v-if="post.tags.length">
             <strong>Tags:</strong>
@@ -24,7 +23,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .post {
     background: #fff;
     padding: 15px;
@@ -66,4 +65,4 @@ h2 {
     color: #888;
     font-style: italic;
 }
-</style>
+</style> -->
