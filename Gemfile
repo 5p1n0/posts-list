@@ -58,6 +58,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "shakapacker", "= 8.1"
+gem "shakapacker", "8.3.0"
 
 gem "pg", "~> 1.5"
